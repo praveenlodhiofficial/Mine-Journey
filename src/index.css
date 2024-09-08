@@ -146,12 +146,13 @@ body {
 }
 
 .explore {
-  padding: 1rem 2rem;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10px;
   border: none;
   font-family: "DM Serif Display", serif;
   font-size: 1.25rem;
-  letter-spacing: 0.25rem;
-  color: #3535cc;
+  letter-spacing: 0.15rem;
+  color: white;
   /* border-radius: 32px; */
   cursor: pointer;
   display: inline-block;
@@ -163,10 +164,11 @@ body {
   transition: 0.42s ease-in-out;
   animation: fadeIn 2.4s ease-in-out 2s forwards;
   opacity: 0;
+  background-color: black;
 }
 
 .explore:hover {
-  color: white;
+  color: black;
   border-radius: 20px;
   font-size: 1.30rem;
   border: none;
@@ -174,6 +176,7 @@ body {
   filter: contrast(1.5);
   background: #03e9f4;
   box-shadow: 8px 8px 8px rgb(0, 0, 0, 1), -1px -1px 8px rgba(255, 255, 255, 1);
+  font-weight: bolder;
 }
 
 .explore:hover:before {
@@ -184,7 +187,7 @@ body {
 
 .explore:before {
   content: "";
-  background: #3535cc;
+  background: white;
   position: absolute;
   width: 0%;
   bottom: 0;
